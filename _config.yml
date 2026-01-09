@@ -1,0 +1,36 @@
+# Site settings
+title: Tim Allan
+description: Software developer and open source enthusiast
+author: Tim Allan
+
+# GitHub Pages specific settings
+url: "https://timgallansprint.github.io"
+baseurl: ""
+
+# Theme configuration
+# Choose from: architect, cayman, dinky, hacker, leap-day, merlot, midnight, minima, minimal, modernist, slate, tactile, time-machine
+theme: minima
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Social links (optional)
+github_username: TimGAllanSprint
+
+# Build settings
+show_excerpts: true
